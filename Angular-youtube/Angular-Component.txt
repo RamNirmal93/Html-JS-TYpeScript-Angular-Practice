@@ -1,0 +1,6 @@
+Component :-html, css,ts,test file
+Ts component-> @Component decorator is used to tell ts file as a component contains -> selector,templateUrl to link html path,styleUrls to link css path 
+to create a new component -> ng g c componentName
+inspite of giving html path in templateUrl we also can write html code by using template
+to install bootstrap files -> npm install bootstrap --save
+favicon-> app icon 

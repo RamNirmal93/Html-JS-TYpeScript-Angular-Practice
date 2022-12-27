@@ -1,0 +1,10 @@
+we can show or hide DOM elements basedon some condition.
+ngSwitch, ngSwitchCase,ngSwitchDefault
+ngSwitch -syntax:-
+<div [ngSwitch]="expression">
+    <div *ngSwitchCase= "value1">...</div>
+    <div *ngSwitchCase= "value2">...</div>
+    <div *ngSwitchCase= "value3">...</div>
+    <div *ngSwitchCase= "value4">...</div>
+    <div *ngSwitchDefault>...</div>
+</div>

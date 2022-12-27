@@ -1,0 +1,4 @@
+one way db
+ts file to html binding
+syntax:{{expression}}
+In html while using string interpolation we cant use new, assiegnment operator or overriden the variable but we can add the num value like {{num+1 or 2...}}

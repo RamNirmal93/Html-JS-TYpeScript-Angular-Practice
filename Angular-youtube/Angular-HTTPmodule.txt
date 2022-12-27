@@ -1,0 +1,4 @@
+Import HttpClientModule in app.module.ts
+and add HttpClientModule in imports of ng module of app module.ts file 
+Import HttpClient class in any component.ts or service.ts
+Inject HttpClient instance in constructor

@@ -1,0 +1,4 @@
+Service is a class that has data(properties) or methods
+To create servive file:-
+    syntax: ng g s service-name
+            ng generate service service-name

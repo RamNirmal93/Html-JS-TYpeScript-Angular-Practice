@@ -1,0 +1,11 @@
+It is a js framework
+Devoloped by google
+written in TS
+Can create SPA single page application
+Angular Js based on Js
+Angular based on TS framework
+
+Required Tools:-
+NodeJs
+Angular CLI
+Editor:- Vs code

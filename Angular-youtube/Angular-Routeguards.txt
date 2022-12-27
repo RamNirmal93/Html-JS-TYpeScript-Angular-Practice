@@ -1,0 +1,11 @@
+we use the angular guards to control, whether the user can navigate some page (route) or not means providing only authorized access to routes
+
+uses of angular:-
+. asking whetherto save before moving away from a view
+.allow access to certain parts of the application to specific users
+.validating the route parameters before navigating to route
+.fetching some data before you display the component.
+
+
+Types of Route guards:-
+CanActivate, CanDeactivate, Resolve, canLoad, CanActivateChild

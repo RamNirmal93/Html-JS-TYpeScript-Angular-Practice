@@ -1,0 +1,12 @@
+Directives are custom HTML attributes which tell angular to change the structure, style or behavior of the Dom elements.
+Types of Directives:-
+Structural directives, Attribute directives, Component Directives
+
+Structural directives:- Change the DOM layout by adding and removing DOM elements.(using NgIf, NgFor, NgSwitch)
+Attribute directives:- Change the appearance or behaviour of an element, Component, or another directive.(using NgClass, NgStyle, NgModel)
+NgClass: adds and removes a set of css classes
+NgStyle: adds and removes a set of HTMLstyles
+NgModel: adds two way data binding to HTML form elements
+
+Component directive:- using a component selector as a html attribute 
+

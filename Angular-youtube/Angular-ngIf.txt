@@ -1,0 +1,2 @@
+we can add or remove DOM elements based on some condition
+NgIf, NgIf with else, NgIf with then & else

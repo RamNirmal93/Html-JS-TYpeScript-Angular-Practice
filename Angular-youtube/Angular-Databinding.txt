@@ -1,0 +1,7 @@
+ Databinding -> binding the html and ts file
+Types of databinding -> one way databinding, Two way databinding
+one way db = model/ts file to dom/html or dom/html to model/ts file
+two way db = model/ts file to dom/html and dom/html to model/ts file
+one way db types -> string interpolation, attribute binding, class binding, style binding, event binding
+string interpolation, attribute binding, class binding, style binding these all are used to -> ts file to html file
+event binding -> html to ts file

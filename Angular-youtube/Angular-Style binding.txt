@@ -1,0 +1,6 @@
+one way binding
+setinline styles of an element dynamic based on model/ts file
+model/ts file to html style
+syntax: [style] = {property:var1}
+or
+[style.property]=var1

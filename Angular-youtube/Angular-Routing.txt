@@ -1,0 +1,24 @@
+Routing is used to navigate from one component to another component in angular
+Three steps to Routing:-
+    Configuring  the routes, Adding router Outlet,
+    Add routing links in template
+Configuring the routes:-
+    eg :- [
+        {
+            path:'',component:Home component
+        },
+        {
+            path:'users',component:Users component
+        },       
+        {
+            path:'about',component:About component
+        }
+    ]
+
+    Route Parameters:-
+    [
+        {
+            path:'users/:id',component:UserComponent
+
+    }
+    ]

@@ -1,0 +1,5 @@
+allows to bind data from html to model/ts file & tsfile to html
+syntax :
+[(ngModel)] = propertyname(variable)
+
+mostly used in forms

@@ -1,0 +1,5 @@
+parent to child -> @Input() decorator
+child to parent -> @Output() decorator, TemplateReferenceVariable, @ViewChild() decorator
+for @ViewChild() we have to import a ViewChild from angularcore in ts file of app component i.e., parent component then we also have to import the child component in parent component
+
+

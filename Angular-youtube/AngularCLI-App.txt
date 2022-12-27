@@ -1,0 +1,14 @@
+ CLI- command line interface
+npm install -g @angular/cli -> to install angular cli
+ng --version --> to check install
+ng new project_name -> create a new angular application
+cd path of application
+ng new project_name --no-strict
+and click no for angular Routing or click yes if we are using
+CSS 
+Run angular Application cli -> ng serve/ npm start
+to change server port -> ng serve -p 5000 must be greater than 1024
+to compile and then open -> ng serve -o
+
+
+

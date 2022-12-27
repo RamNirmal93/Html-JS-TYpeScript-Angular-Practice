@@ -1,0 +1,3 @@
+one way binding
+bind data from ts file to html
+syntax:[property]

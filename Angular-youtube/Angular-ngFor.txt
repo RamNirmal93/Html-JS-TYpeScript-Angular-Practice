@@ -1,0 +1,4 @@
+we can modify dom  structure
+loop over an array to show data in html template
+syntax: <div *ngFor = "let e of arr"></div>
+variables: index, first, last,even, odd

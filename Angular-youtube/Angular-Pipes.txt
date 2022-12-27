@@ -1,0 +1,12 @@
+Used to transform data before displaying it on in the browser
+pipes take data as input and format or transform the data to some form
+
+syntax: Expression| pipename[:parameters]
+eg:- 'angular' | Uppercase o/p-> ANGULAR 
+Built in Pipes:
+CurrencyPipe, DataPipe, DEcimalPipe, JsonPipe,LowerCasePipe, UpperCasePipe,PercentPipe,SilencePipe,AsyncPipe
+
+Custom pipes:-
+Syntax: ng g p pipe-name or ng generate pipe pipe-name
+
+

@@ -1,0 +1,8 @@
+Query Parameters:
+https://amazon.com
+https://amazon.com/products?page=5&size=10
+
+query Parameters syntax:
+<a routeLink="/products"[queryParams]="{'category','men'}">Men</a>
+
+

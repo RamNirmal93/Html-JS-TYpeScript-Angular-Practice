@@ -1,0 +1,18 @@
+Observable is a class
+let o = new Observable();
+To create object of this type takes a callback function &
+let o =new Observable(function(){})
+this object emits some data continuously or error with the help of next(), error() methods.
+
+let myobs= new observable(function(observer){
+    observer.next(1);
+    observer.next(2);
+    observer.next("Error");
+})
+
+myobs.subscribe(
+    data=>{console.log(data)}, or (data)=>{console.log(data)},
+    
+    err=>{console.log(err)},
+    ()=>{console.log("completed")}
+)

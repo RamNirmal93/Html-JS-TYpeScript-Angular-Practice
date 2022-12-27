@@ -1,0 +1,11 @@
+One way binding
+Bind data from html to model/ts file
+syntax: (eventname)= somefun()
+or
+on-eventname= somefun()
+
+commonly used events:-
+Mouse Events(click, double click, mouseover, mouseout, mouse move)
+Keyboard Events(Key down, Key up, Key press)
+Focus events (focus, blur, focusin, focusout)
+Form Events(submit,reset, change)
