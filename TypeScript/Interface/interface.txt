@@ -1,0 +1,2 @@
+//as javascript file is generated after the compile time ,the interface concept is gone or not there
+interface is for arrays and functions 

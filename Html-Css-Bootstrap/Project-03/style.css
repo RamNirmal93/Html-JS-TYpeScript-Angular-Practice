@@ -1,0 +1,54 @@
+/* Global view aka desktop view */
+/* h1{
+    color: lawngreen;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+.container{
+    background-color: rgb(43, 226, 147);
+    min-height: 500px;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col{
+    background-color: rgb(247, 8, 131);
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+
+}
+
+.hide-desktop-only{
+    display: none;
+}
+
+/* tablet view */
+@media(max-width: 768px){
+    
+    /* h1{
+        color: darkorange;
+    } */
+    .col{
+        width: 45%;
+    }
+    .hide-desktop-only{
+        display: block;
+    }
+}
+
+/* mobile view */
+@media(max-width: 400px){
+    /* h1{
+        color: black;
+    } */
+    .col{
+        width: 100%;
+    }
+    .hide-mobile{
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .badsize{
+            font-size: 30px;
+        }
+        .goodsize{
+            font-size: 3rem; /*3times of default browser font size that is 48px*/
+        }
+
+        .mybox{
+            font-size: 2rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <p class="badsize">Daniel Scott</p>
+    <p class="goodsize">Daniel Scott</p>
+    <p>Daniel Scott</p>   <!-- default size 16px ,if you want 48 pixels using rems then multiply 0.0625*48 = 3 rems -->
+    <div class="mybox">
+        <p class="goodsize">Pickel</p>
+    </div>
+</body>
+</html>

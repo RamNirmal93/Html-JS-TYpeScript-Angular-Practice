@@ -1,0 +1,24 @@
+var n1 = 30;
+var n2 = 3.14;
+var s1 = "Success is the best revenge";
+var daysOfWeek;
+(function (daysOfWeek) {
+    daysOfWeek[daysOfWeek["Monday"] = 0] = "Monday";
+    daysOfWeek[daysOfWeek["Tuesday"] = 1] = "Tuesday";
+    daysOfWeek[daysOfWeek["Wednesday"] = 2] = "Wednesday";
+    daysOfWeek[daysOfWeek["Thursday"] = 3] = "Thursday";
+    daysOfWeek[daysOfWeek["Friday"] = 4] = "Friday";
+    daysOfWeek[daysOfWeek["Saturday"] = 5] = "Saturday";
+    daysOfWeek[daysOfWeek["Sunday"] = 6] = "Sunday";
+})(daysOfWeek || (daysOfWeek = {}));
+console.log(daysOfWeek[0]);
+console.log(daysOfWeek[1]);
+console.log(daysOfWeek[2]);
+console.log(daysOfWeek[3]);
+console.log(daysOfWeek[4]);
+console.log(daysOfWeek[5]);
+console.log(daysOfWeek[6]);
+console.log(Object.values(daysOfWeek));
+console.log(n1);
+console.log(n2);
+console.log(s1);
